@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://DeadlyDeadlars.github.io',
-  base: '/nodus',
+  base: '/Nodus',
   outDir: './deploy',
   i18n: {
     defaultLocale: 'ru',
