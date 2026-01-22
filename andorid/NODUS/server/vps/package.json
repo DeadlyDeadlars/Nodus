@@ -1,0 +1,15 @@
+{
+  "name": "nodus-vps-server",
+  "version": "1.0.0",
+  "scripts": {
+    "relay": "node relay.js",
+    "bootstrap": "node bootstrap.js",
+    "start": "npm run relay & npm run bootstrap"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "ws": "^8.14.2"
+  }
+}
