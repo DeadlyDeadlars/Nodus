@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 export default defineConfig({
-  site: 'https://markmarushak.github.io',
+  site: 'https://DeadlyDeadlars.github.io',
   base: '/Messenger',
   outDir: './deploy',
   i18n: {
